@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: 600px;
+    background-color: greenyellow;
+    /* border: solid black; */
+}
+.headerbox{
+    width: 100%;
+    height: 250px;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerbox{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+    width: 100%;
+    height: 150px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerbox{
+    /* width: 800px; */
+    height: 160px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headlogo{
+    width: 100%;
+    height: 30px;
+    /* background-color: blanchedalmond; */
+    margin-bottom: 20px;
+    display: flex;
+    color: white;
+    
+}
+.headtext{
+    width: 600px;
+    height: 120px;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.headerlogo{
+    width: 50%;
+    height: 20px;
+    /* background-color: white; */
+    margin-right: 70px;
+}
+.headerlink1{
+    width: 100px;
+    height: 20px;
+    margin-right: 20px;
+    /* background-color: white; */
+}
+.headerlink2{
+    /* width: 100px; */
+    height: 20px;
+    /* background-color: white; */
+    margin-right: 10px;
+}
+.headerlink3{
+    width: 120px;
+    height: 20px;
+    /* background-color: white; */
+}
+.leftbox{
+    width: 50%;
+    height: 170px;
+    /* background-color: beige; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+
+}
+.rightbox{
+    width: 50%;
+    height: 170px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.website{
+    width: 200px;
+    height: 80px;
+    /* background-color: blue; */
+}
+.texta{
+    width: 240px;
+    height: 40px;
+    /* background-color: aquamarine; */
+    margin-bottom: 5px;
+}
+.button{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(101, 101, 212);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.buttoninput{
+    width: 100%;
+    border: 1px 3rem;
+}
+.fourbox{
+    width: 50%;
+    height: 60px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.first{
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.lorem{
+    width: 50%;
+    height: 100px;
+    /* background-color: white; */
+}
+.bluebox{
+    width: 50%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.leftblue{
+    width: 340px;
+    height: 40px;
+    /* background-color: brown; */
+    margin-right: 80px;
+    color: white;
+}
+.rightblue{
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
